@@ -70,6 +70,7 @@ export default function Home() {
     />
 
       <MeuBotao text="Concluir Etapa 1"/>
+      <MeuBotao text="Concluir Etapa 2"/>
 
     </main>
   );
