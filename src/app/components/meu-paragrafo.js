@@ -7,6 +7,14 @@ const Paragrafo = styled.p`
     color: #000000;
     font-family: 'Poppins', sans-serif;
     margin: 1em 1em 1em 2em;
+
+    @media (min-width: 768px) {
+        font-size: 16px;
+    }
+
+    @media (min-width: 1024px) {
+        font-size: 18px;
+    }
 `;
 
 export default function MeuParagrafo({ text }) {

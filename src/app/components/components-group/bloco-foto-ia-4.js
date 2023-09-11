@@ -15,7 +15,7 @@ const TextoContainer = styled.div`
 `;
 
 const Subtitulo = styled.h2`
-    font-size: 16px;
+    font-size: 1rem;
     color: #373737;
     margin: 0;
     font-weight: 700;
@@ -25,13 +25,14 @@ const Subtitulo = styled.h2`
 `;
 
 const TextoIA = styled.p`
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #373737;
     font-style: normal;
     font-weight: 300;
     text-align: left;
     white-space: pre-line;
     margin-bottom: 0.5em;
+
 `;
 
 const PalavraEmDestaque = styled.span`
@@ -45,7 +46,7 @@ const PalavraEmDestaqueDois = styled.span`
 `;
 
 const Link = styled.a`
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #0349D0;
     text-decoration: underline;
     font-style: normal;

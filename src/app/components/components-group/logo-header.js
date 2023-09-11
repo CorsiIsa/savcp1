@@ -4,16 +4,25 @@ import styled from 'styled-components';
 
 // Estilos para o container principal do LogoHeader
 const Container = styled.div`
-    display: flex; /* Ativa o layout flexível */
-    align-items: center; /* Alinha verticalmente os elementos ao centro */
-    justify-content: space-between; /* Coloca espaço entre os elementos */
-    padding: 1em; /* Adiciona margem de 1em nas laterais */
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 1em; 
 `;
 
 // Estilos para a imagem do LogoPorto
 const ImagemPorto = styled.img`
-    max-width: 50%;
+    width: 100%;
+    max-width: 200px;
     height: auto;
+
+    @media (min-width: 768px) {
+        max-width: 250px;
+    }
+
+    @media (min-width: 1024px) {
+        max-width: 300px;
+    }
 `;
 
 // Componente para o LogoPorto
@@ -23,8 +32,17 @@ export function LogoPorto({ src, alt }) {
 
 // Estilos para a imagem do LogoSav
 const ImagemSav = styled.img`
-    max-width: 30%;
+    width: 100%;
+    max-width: 100px;
     height: auto;
+
+    @media (min-width: 768px) {
+        max-width: 125px;
+    }
+
+    @media (min-width: 1024px) {
+        max-width: 150px;
+    }
 `;
 
 // Componente para o LogoSav

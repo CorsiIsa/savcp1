@@ -8,6 +8,14 @@ const Paragrafo = styled.p`
     font-weight: 500;
     line-height: normal;
     margin: 0 0 0 1.5em;
+
+    @media (min-width: 768px) {
+        font-size: 18px;
+    }
+
+    @media (min-width: 1024px) {
+        font-size: 22px;
+    }
 `;
 
 export function ParagrafoFotoIA({ text }) {

@@ -11,6 +11,14 @@ const Titulo = styled.h1`
     margin: 1em 1em 2em 1em;
     z-index: 1;
     position: relative;
+
+    @media (min-width: 768px) {
+        font-size: 20px;
+    }
+
+    @media (min-width: 1024px) {
+        font-size: 40px;
+    }
 `;
 
 const TracoAzul = styled.img`
