@@ -10,10 +10,14 @@ const Paragrafo = styled.p`
 
     @media (min-width: 768px) {
         font-size: 16px;
+        margin-left: 4em;
+        margin-right: 4em;
     }
 
-    @media (min-width: 1024px) {
+    @media (min-width: 1366px) {
         font-size: 18px;
+        margin-left: 4em;
+        margin-right: 4em;
     }
 `;
 

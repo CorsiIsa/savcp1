@@ -29,8 +29,8 @@ export default function Home() {
           />
       </div>
 
-      <ParagrafoFotoIA text="Para finalizar a primeira etapa do seu <br />
-      Processo de Vistoria, precisamos de 4 <br />
+      <ParagrafoFotoIA text="Para finalizar a primeira etapa do seu 
+      Processo de Vistoria, precisamos de 4 
       fotos específicas da sua Bike." />
 
       <BlocoFotoIA1

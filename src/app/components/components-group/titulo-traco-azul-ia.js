@@ -13,16 +13,17 @@ const Titulo = styled.h1`
     position: relative;
 
     @media (min-width: 768px) {
-        font-size: 20px;
+        font-size: 24px;
     }
 
-    @media (min-width: 1024px) {
-        font-size: 40px;
+    @media (min-width: 1366px) {
+        font-size: 28px;
     }
 `;
 
 const TracoAzul = styled.img`
-    width: 1800px;
+    width: 100%;
+    max-width: 500px;
     height: 30px;
     background: transparent; /* Definimos o fundo da imagem como transparente */
     position: absolute;
@@ -30,6 +31,14 @@ const TracoAzul = styled.img`
     left: 50%; /* Centralizamos horizontalmente a imagem em relação ao container */
     transform: translateX(-50%); /* Ajustamos a posição horizontal */
     z-index: 0;
+
+    @media (min-width: 768px) {
+        max-width: 600px;
+    }
+
+    @media (min-width: 1366px) {
+        max-width: 800px;
+    }
 `;
 
 export function TituloTracoAzul({ tituloText, tracoSrc, tracoAlt }) {

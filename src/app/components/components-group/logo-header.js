@@ -20,7 +20,7 @@ const ImagemPorto = styled.img`
         max-width: 250px;
     }
 
-    @media (min-width: 1024px) {
+    @media (min-width: 1366px) {
         max-width: 300px;
     }
 `;
@@ -40,7 +40,7 @@ const ImagemSav = styled.img`
         max-width: 125px;
     }
 
-    @media (min-width: 1024px) {
+    @media (min-width: 1366px) {
         max-width: 150px;
     }
 `;

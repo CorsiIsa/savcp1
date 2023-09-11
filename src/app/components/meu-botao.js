@@ -7,7 +7,7 @@ const Button = styled.button`
     text-align: center;
     padding: 0.8em 2em;
     margin: 1em auto;
-    font-size: 1rem;
+    font-size: 16px;
     border-radius: 10px;
     border-color: #0046c0;
     cursor: pointer;
@@ -16,6 +16,14 @@ const Button = styled.button`
 
     &:active {
         background: #01a1fd; /* Altere para a cor desejada quando o botão for clicado */
+    }
+
+    @media (min-width: 768px) {
+        font-size: 20px;
+    }
+
+    @media (min-width: 1024px) {
+        font-size: 24px;
     }
 `;
 
