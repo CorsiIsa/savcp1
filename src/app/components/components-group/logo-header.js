@@ -23,7 +23,7 @@ export function LogoPorto({ src, alt }) {
 
 // Estilos para a imagem do LogoSav
 const ImagemSav = styled.img`
-    max-width: 15%;
+    max-width: 30%;
     height: auto;
 `;
 

@@ -12,22 +12,22 @@ export default function Home() {
   return (
     <main>
       <div>
-            <LogoHeader
-                srcPorto="images/logoporto (2).png"
-                altPorto="Logo do Porto"
-                srcSav="images/logosav.png"
-                altSav="Logo do Sav"
-            />
-        </div>
+          <LogoHeader
+              srcPorto="images/logoporto (2).png"
+              altPorto="Logo do Porto"
+              srcSav="images/logosavfinal.png"
+              altSav="Logo do Sav"
+          />
+      </div>
 
 
       <div>
-            <TituloTracoAzul
-                tituloText="Agora vamos lá, hora das fotos!"
-                tracoSrc="/images/pincelada azul.png"
-                tracoAlt="Descrição da Imagem"
-            />
-        </div>
+          <TituloTracoAzul
+              tituloText="Agora vamos lá, hora das fotos!"
+              tracoSrc="/images/pincelada azul.png"
+              tracoAlt="Descrição da Imagem"
+          />
+      </div>
 
       <ParagrafoFotoIA text="Para finalizar a primeira etapa do seu <br />
       Processo de Vistoria, precisamos de 4 <br />
